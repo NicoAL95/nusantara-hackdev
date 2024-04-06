@@ -1,9 +1,17 @@
 .overlay{
-    @apply absolute w-full h-full left-0 top-0 bg-gradient-to-t from-[#181818] to-transparent
+    @apply absolute w-full h-full left-0 top-0 bg-gradient-to-t from-[#181818] to-transparent z-[10]
+}
+
+.carousel{
+    @apply w-full h-full absolute left-0 top-0 overflow-clip
+}
+
+.carousel_img{
+    @apply w-full h-full object-cover
 }
 
 .headerContent{
-    @apply absolute left-0  bottom-[-10%] lg:bottom-10 w-full h-fit px-[60px] lg:px-[100px] text-white
+    @apply absolute left-0  bottom-[-10%] lg:bottom-10 w-full h-fit px-[60px] lg:px-[100px] text-white z-[12]
 }
 
 .headerContent > div > h1{

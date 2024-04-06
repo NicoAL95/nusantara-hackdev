@@ -1,9 +1,12 @@
+"use client"
+
 import style from "./index.module.css"
-// import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, EffectFade } from 'swiper/modules';
 
-// Import Swiper styles
 import 'swiper/css';
-
+import "swiper/css/effect-fade";
+import 'swiper/css/autoplay';
 
 export default function HeaderComp() {
   const headerBlock = [
@@ -23,6 +26,18 @@ export default function HeaderComp() {
       title: "Weather",
       desc: "Get to know Nusantara Weather Condition"
     },
+  ]
+
+  const carouels = [
+    {
+      link: "https://gardaberita.com/wp-content/uploads/2024/03/Desain-Istana-Kepresidenan-di-IKN-dan-Ikoniknya-Garuda.png"
+    },
+    {
+      link: "https://images.pexels.com/photos/534757/pexels-photo-534757.jpeg?cs=srgb&dl=pexels-kai-pilger-534757.jpg&fm=jpg"
+    },
+    {
+      link: "https://theplanetd.com/images/New-York-At-Night.jpg"
+    }
   ]
   return (
     <div className="w-full h-[720px] relative">
@@ -45,7 +60,30 @@ export default function HeaderComp() {
           ))}
       </div>
       </div>
-      <img className="w-full h-full object-cover " src="https://gardaberita.com/wp-content/uploads/2024/03/Desain-Istana-Kepresidenan-di-IKN-dan-Ikoniknya-Garuda.png" alt=""/>
+      <div className={style.carousel}>
+        <Swiper
+          spaceBetween={0}
+          slidesPerView={1}
+          effect={"fade"}
+          loop={true}
+          speed={1500}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false
+          }}
+          modules={[Autoplay, EffectFade]}
+        >
+        {carouels.map((carousel, i) => (
+          <SwiperSlide key={i}>
+            <img 
+              className={style.carousel_img} 
+              src={carousel.link} 
+              alt=""
+            />
+          </SwiperSlide>
+        ))}
+        </Swiper>
+      </div>
     </div>
   )
 }
