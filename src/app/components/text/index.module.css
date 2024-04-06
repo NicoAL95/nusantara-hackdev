@@ -3,9 +3,9 @@
 }
 
 .title_comp > h1{
-    @apply text-[60px]
+    @apply text-[35px] sm:text-[40px] lg:text-[60px] 
 }
 
 .title_comp > h2{
-    @apply text-[20px]
+    @apply text-[16px] lg:text-[21px] text-stones/80
 }

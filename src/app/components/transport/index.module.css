@@ -1,3 +1,3 @@
 .transport_sect{
-    @apply pt-[120px] px-[100px] bg-softDark
+    @apply pt-[120px] px-[60px] lg:px-[100px] bg-softDark
 }

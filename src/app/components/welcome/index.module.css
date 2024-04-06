@@ -1,9 +1,9 @@
 .welcome_sect{
-    @apply pt-[120px] bg-softDark
+    @apply pt-[120px] px-[60px] lg:px-[100px] bg-softDark
 }
 
 .welcome_desc{
-    @apply text-stones w-[75%] mx-auto text-center text-[28px] pb-[80px]
+    @apply text-stones w-[75%] mx-auto text-center text-[20px] md:text-[28px] pb-[80px]
 }
 
 .welcome_more{

@@ -3,33 +3,33 @@
 }
 
 .headerContent{
-    @apply absolute left-0 bottom-10 w-full h-fit px-[100px] text-white
+    @apply absolute left-0  bottom-[-10%] lg:bottom-10 w-full h-fit px-[60px] lg:px-[100px] text-white
 }
 
 .headerContent > div > h1{
-    @apply font-helvetica  text-[75px] 
+    @apply font-helvetica text-[50px] sm:text-[55px] md:text-[65px] lg:text-[75px] 
 }
 
 .headerContent > div > p{
-    @apply w-[50%]
+    @apply w-full md:w-[85%] xl:w-[50%] text-[15px] md:text-[18px]
 }
 
 .weather > h3{
-    @apply font-helvetica text-white text-[20px] mt-[30px] mb-[60px]
+    @apply font-helvetica text-white text-[20px] mt-[15px] sm:mt-[30px] mb-[15px] sm:mb-[60px]
 }
 
 .header_blur{
-    @apply w-full h-fit bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 flex justify-between p-6
+    @apply w-full h-fit bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 grid grid-cols-4 p-6 gap-4
 }
 
 .blur_block{
-    @apply font-helvetica text-white
+    @apply font-helvetica text-white col-span-4 sm:col-span-2 xl:col-span-1
 }
 
 .blur_block > h1{
-    @apply text-[25px] text-wrap capitalize
+    @apply text-[18px] text-center sm:text-left sm:text-[20px] md:text-[25px] text-wrap capitalize
 }
 
 .blur_block > h2{
-    @apply text-[15px] capitalize
+    @apply text-[14px] sm:text-[15px] text-center sm:text-left capitalize
 }

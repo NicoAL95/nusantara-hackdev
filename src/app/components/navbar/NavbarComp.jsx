@@ -12,21 +12,13 @@ export default function NavbarComp() {
       link: "/"
     },
     {
-      name: "Opinion",
+      name: "Community",
       link: "/"
     },
     {
-      name: "Technology",
+      name: "Transportations",
       link: "/"
-    },
-    {
-      name: "Our Planet",
-      link: "/"
-    },
-    {
-      name: "Health & Science",
-      link: "/"
-    },
+    }
   ]
 
   return (
