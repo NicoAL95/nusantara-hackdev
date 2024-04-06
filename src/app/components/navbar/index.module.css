@@ -1,0 +1,15 @@
+.navbar{
+    @apply fixed w-full px-[100px] py-[25px] flex justify-between items-center z-[200]
+}
+
+.navbar_logo > img{
+    @apply max-h-[50px] w-auto
+}
+
+.nav_lists{
+    @apply flex space-x-5
+}
+
+.nav_list > a{
+    @apply block font-helvetica font-[100] text-white
+}

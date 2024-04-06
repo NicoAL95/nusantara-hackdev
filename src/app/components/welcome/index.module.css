@@ -1,0 +1,15 @@
+.welcome_sect{
+    @apply pt-[120px] bg-softDark
+}
+
+.welcome_desc{
+    @apply text-stones w-[75%] mx-auto text-center text-[28px] pb-[80px]
+}
+
+.welcome_more{
+    @apply text-center text-stones text-[20px]
+}
+
+.welcome_more > a{
+    @apply w-fit block mx-auto
+}

@@ -1,0 +1,35 @@
+.overlay{
+    @apply absolute w-full h-full left-0 top-0 bg-gradient-to-t from-[#181818] to-transparent
+}
+
+.headerContent{
+    @apply absolute left-0 bottom-10 w-full h-fit px-[100px] text-white
+}
+
+.headerContent > div > h1{
+    @apply font-helvetica  text-[75px] 
+}
+
+.headerContent > div > p{
+    @apply w-[50%]
+}
+
+.weather > h3{
+    @apply font-helvetica text-white text-[20px] mt-[30px] mb-[60px]
+}
+
+.header_blur{
+    @apply w-full h-fit bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 flex justify-between p-6
+}
+
+.blur_block{
+    @apply font-helvetica text-white
+}
+
+.blur_block > h1{
+    @apply text-[25px] text-wrap capitalize
+}
+
+.blur_block > h2{
+    @apply text-[15px] capitalize
+}

@@ -1,0 +1,11 @@
+.title_comp{
+    @apply font-helvetica text-holy pb-[80px]
+}
+
+.title_comp > h1{
+    @apply text-[60px]
+}
+
+.title_comp > h2{
+    @apply text-[20px]
+}

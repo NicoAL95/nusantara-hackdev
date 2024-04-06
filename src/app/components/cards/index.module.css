@@ -1,0 +1,21 @@
+.card{
+    @apply h-[500px] bg-softDark border border-smoke rounded-2xl 
+}
+.card_overlay{
+    @apply absolute z-20 w-full h-full left-0 top-0 bg-gradient-to-t from-[#181818] to-transparent
+}
+.card_img{
+    @apply h-[300px] relative 
+}
+.card_img > img{
+    @apply w-full h-full object-cover rounded-t-2xl
+}
+.card_desc{
+    @apply h-[200px] p-6 font-helvetica
+}
+.card_desc > h1{
+    @apply text-[20px] capitalize text-holy mb-3
+}
+.card_desc > h2{
+    @apply text-[15px] h-[112.5px] text-stones/80 text-wrap truncate
+}
