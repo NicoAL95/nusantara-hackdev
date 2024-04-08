@@ -8,5 +8,5 @@
     @apply w-full h-full object-cover pb-10
 }
 .news_detail_content > div > p{
-    @apply font-helvetica text-holy/80 pb-5
+    @apply font-helvetica text-holy/80 pb-5 text-justify
 }
