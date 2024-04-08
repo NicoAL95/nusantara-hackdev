@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2?styles=48960,48974,48980,48947,48955');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2');
 
 .cardGrid{
     @apply grid grid-cols-12 gap-4 xl:gap-6 2xl:gap-8

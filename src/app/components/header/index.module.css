@@ -7,7 +7,7 @@
 }
 
 .carousel_img{
-    @apply w-full h-full object-cover
+    @apply w-full h-screen lg:h-full object-cover
 }
 
 .headerContent{

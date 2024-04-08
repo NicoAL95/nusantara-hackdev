@@ -1,0 +1,54 @@
+.news_sect{
+    @apply pt-[120px] px-[60px] lg:px-[100px] bg-softDark
+}
+.news_grid{
+    @apply grid grid-cols-12 gap-y-10 sm:gap-y-10 sm:gap-x-10 lg:gap-x-5 lg:gap-y-5
+}
+
+/* News Hero */
+.news_hero{
+    @apply col-span-12 lg:col-span-8 h-fit sm:h-[400px] md:h-[500px] font-helvetica
+}
+.news_hero_link{
+    @apply flex flex-col-reverse sm:flex-row cursor-pointer hover:bg-[#262626] hover:rounded-2xl hover:p-4 transition-all duration-300 h-fit
+}
+.news_hero_content{
+    @apply w-full sm:w-[60%] pt-5 sm:pt-0 sm:pr-5 flex-col
+}
+.news_hero_content > div > h1{
+    @apply text-holy capitalize text-[30px] md:text-[40px] lg:text-[50px] tracking-tighter font-light leading-tight
+}
+.news_hero_content > div > p{
+    @apply text-stones mt-[30px]
+}
+.news_hero_bottom{
+    @apply mt-[30px] flex space-x-3 text-stones/80
+}
+.news_hero_img{
+    @apply w-full sm:w-[40%] h-[200px] sm:h-[400px] md:h-[500px]
+}
+/* End News Hero */
+
+/* News Side */
+.news_side{
+    @apply col-span-12 lg:col-span-4 flex-col space-y-8
+}
+.news_side_link{
+    @apply flex  cursor-pointer hover:bg-[#262626] hover:rounded-2xl hover:p-4 transition-all duration-300 h-fit
+}
+.news_side_img{
+    @apply w-[100px] h-[100px] flex-none
+}
+.news_side_img > img{
+    @apply w-full h-full object-cover
+}
+.news_side_content{
+    @apply pl-5
+}
+.news_side_content > div{
+    @apply flex space-x-2 text-sm text-stones/80 mb-2
+}
+.news_side_content > h1{
+    @apply text-[15px] text-holy
+}
+/* End News Side */

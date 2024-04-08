@@ -1,5 +1,5 @@
 .navbar{
-    @apply fixed w-full px-[100px] py-[25px] flex justify-between items-center z-[200]
+    @apply fixed w-full px-[60px] lg:px-[100px] py-[25px] flex justify-between items-center z-[200] bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10
 }
 
 .navbar_logo > img{
@@ -7,9 +7,13 @@
 }
 
 .nav_lists{
-    @apply flex space-x-5
+    @apply flex flex-col h-screen md:h-fit md:flex-row md:space-x-5 absolute top-0 md:static bg-gray-400  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 md:bg-transparent md:backdrop-blur-none md:bg-opacity-0 md:backdrop-filter-none transition-all duration-300
 }
 
 .nav_list > a{
-    @apply block font-helvetica font-[100] text-white
+    @apply block font-helvetica font-[100] text-white text-center md:text-left px-8 md:px-0 py-3 md:py-0 hover:bg-softDark/50  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 md:bg-transparent md:backdrop-filter-none md:hover:bg-transparent
+}
+
+.nav_mark{
+    @apply flex md:hidden items-center justify-between px-4 py-6 border-b border-b-holy
 }

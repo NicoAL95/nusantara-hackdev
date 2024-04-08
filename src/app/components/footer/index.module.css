@@ -1,0 +1,11 @@
+.footer_sect{
+    @apply font-helvetica text-holy text-center text-2xl pt-[120px] px-[60px] lg:px-[100px] bg-softDark
+}
+
+.footer_sect > div{
+    @apply my-10 w-full h-[1px] bg-stones/80
+}
+
+.footer_sect > p{
+    @apply font-helvetica text-[15px] pb-14 text-stones/50
+}

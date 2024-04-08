@@ -1,0 +1,24 @@
+.weather_sect{
+    @apply pt-[120px] px-[60px] lg:px-[100px] bg-softDark
+}
+.weather_block{
+    @apply flex flex-col space-y-12 lg:space-y-0 lg:flex-row lg:justify-between xl:justify-around items-center border border-smoke rounded-2xl p-[40px]
+}
+.weather_block > div > h1{
+    @apply tracking-tighter
+}
+.bigger{
+    @apply flex items-start text-holy font-helvetica text-[100px] font-[500] leading-none
+}
+.bigger > span{
+    @apply block text-stones text-sm
+}
+.long{
+    @apply text-center lg:text-left
+}
+.long > h1{
+    @apply text-holy font-helvetica text-[55px] font-[500] leading-none
+}
+.long > h2{
+    @apply text-stones
+}

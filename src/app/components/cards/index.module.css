@@ -1,5 +1,5 @@
 .card{
-    @apply h-[500px] bg-softDark border border-smoke rounded-2xl 
+    @apply block h-[500px] bg-softDark border border-smoke rounded-2xl cursor-pointer hover:bg-[#262626] hover:rounded-2xl transition-all duration-300
 }
 .card_overlay{
     @apply absolute z-20 w-full h-full left-0 top-0 bg-gradient-to-t from-[#181818] to-transparent
