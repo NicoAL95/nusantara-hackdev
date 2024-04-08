@@ -1,0 +1,12 @@
+.news_detail{
+    @apply pt-[120px]  px-[60px] lg:px-[100px] bg-softDark
+}
+.news_detail_content_img{
+    @apply w-full h-[400px]
+}
+.news_detail_content_img > img{
+    @apply w-full h-full object-cover pb-10
+}
+.news_detail_content > div > p{
+    @apply font-helvetica text-holy/80 pb-5
+}
